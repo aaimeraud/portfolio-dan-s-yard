@@ -2,6 +2,7 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.17",
     "tailwindcss": "^4.1.17",
+    "tailwindcss-noise": "^1.0.6",
     "typed.js": "^2.1.0"
   }
 }
