@@ -15,14 +15,42 @@
     <link rel="icon" href="./assets/df_icon_red_ipod.png" type="image/x-icon" />
     <title>Blog</title>
   </head>
-  <body class="bg-neutral-50 dark:bg-neutral-950">
+  <body class="bg-neutral-300 dark:bg-neutral-900">
+    <nav
+      class="v-svw p-7 md:p-7 lg:px-80 sticky flex justify-center  items-center bg-neutral-300 dark:bg-neutral-900">
+
+      <ul
+        class="flex justify-between gap-12 text-neutral-600   shadow-sm border border-neutral-200 dark:border-neutral-600 shadow-neutral-500 dark:text-neutral-400 fixed backdrop-blur-sm py-2 px-4 my-2 rounded-2xl">
+       
+
+       <li>
+          <a href="/src/index.html" class="hover:opacity-60 transition-colors"
+            >Home</a
+          >
+        </li> 
+
+
+        <li>
+          <a
+            href="assets/cv_daniel_fortune.pdf"
+            target="_blank"
+            title="See my resume">
+            <span
+              class="text-neutral-600 dark:text-neutral-400 hover:opacity-60 transition-colors"
+              >CV</span
+            ></a
+          >
+        </li>
+      </ul>
+    </nav>
+   
     <header
-      class="v-svw p-7 lg:pl-80 md:p-7 lg:pr-80 flex justify-between align-middle items-center bg-neutral-50 dark:bg-neutral-950 border-b-2 border-neutral-200 dark:border-neutral-600">
+      class="v-svw p-7 pt-0 lg:pl-80 md:p-7 md:pt-0 lg:pr-80 flex justify-between align-middle items-center bg-neutral-300 dark:bg-neutral-900 border-b-2 border-neutral-200 dark:border-neutral-600">
       <div class="gap-2 flex flex-col">
         <div class="flex items-center gap-3">
           <a href="./index.html"
             ><h1
-              class="font-bold text-4xl sm:text-6xl text-neutral-950 dark:text-neutral-50"
+              class="font-bold text-4xl sm:text-6xl text-neutral-700 dark:text-neutral-300"
               id="">
               D—Blog
             </h1></a
@@ -47,7 +75,7 @@
           ></span>
           <p class="text-neutral-600 dark:text-neutral-400">Available for work</p>
         </div>
-        <ul class="flex gap-1 text-neutral-600 dark:text-neutral-400">
+        <!-- <ul class="flex gap-1 text-neutral-600 dark:text-neutral-400">
           <li>
             <a
               href="index.html"
@@ -55,10 +83,10 @@
               >Go back</a
             >
           </li>
-        </ul>
+        </ul> -->
       </div>
       <svg
-        class="hidden sm:block fill-neutral-950 dark:fill-neutral-50"
+        class="hidden sm:block fill-neutral-700 dark:fill-neutral-300"
         viewBox="0 0 2111 1662"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -126,46 +154,46 @@
     </header>
 
     <section
-      class="p-7 lg:pl-80 md:p-7 lg:pr-80 align-middle items-center bg-neutral-50 dark:bg-neutral-950 border-b-2 border-neutral-200 dark:border-neutral-600 text-neutral-950 dark:text-neutral-50">
+      class="p-7 lg:pl-80 md:p-7 lg:pr-80 align-middle items-center bg-neutral-300 dark:bg-neutral-900 border-b-2 border-neutral-200 dark:border-neutral-600  dark:text-neutral-50">
       <div class="prose">
-        <h1 class="dark:text-neutral-50 text-neutral-950">
+        <h1 class="dark:text-neutral-300 text-neutral-700">
           Building my portfolio website.
         </h1>
-        <p class="dark:text-neutral-50 text-neutral-950">November, 17th 2025</p>
+        <p class="dark:text-neutral-400 text-neutral-500">November, 17th 2025</p>
 
-        <div class="dark:text-neutral-50 text-neutral-950">
-          <h2 class="dark:text-neutral-50 text-neutral-950">How it started</h2>
-          <p>
+        <div class=" ">
+          <h2 class="dark:text-neutral-300 text-neutral-700">How it started</h2>
+          <p class="dark:text-neutral-400 text-neutral-600">
             I've been trying to make a personal website for a long time now. The
             only thing that constantly set me back was my ambitions... I wanted
             it to be way more complicated than it needed to be, way over my capacities at the time. I've made several
             versions, some very simple like this '<a
               href="https://personalintro-eight.vercel.app/"
-              class="dark:text-red-500 text-red-800"
+              class="dark:text-red-400 hover:opacity-80 transition-opacity  text-red-800"
               >business card</a
             >' thing or this
-            <a
+            <a-
               href="https://fortunedanieldotcom.vercel.app/"
-              class="dark:text-red-500 text-red-800"
+              class="dark:text-red-400 hover:opacity-80 cursor-pointer transition-opacity  text-red-800 underline"
               >first try at tailwind css.</a
             >
           </p>
         </div>
         <div>
-          <h2 class="dark:text-neutral-50 text-neutral-950">
+          <h2 class="dark:text-neutral-300 text-neutral-700">
             The hardest part
           </h2>
-          <p class="dark:text-neutral-50 text-neutral-950">
+          <p class="dark:text-neutral-400 text-neutral-600">
             While some might think writing lines of code is complicated (and it
             is most of the time), the most complicated part for me was to talk
             about myself and make this part of the web actually mine.
           </p>
         </div>
         <div>
-          <h2 class="dark:text-neutral-50 text-neutral-950">
+          <h2 class="dark:text-neutral-300 text-neutral-700">
             What have I learned from this?
           </h2>
-          <p class="dark:text-neutral-50 text-neutral-950">
+          <p class="dark:text-neutral-400 text-neutral-600">
             Well, all this trial and error gave me an 'excuse' to build
             websites. Granted, they weren't the most beautiful, but at least
             they worked and served their purpose. I learned a lot making them,
@@ -179,31 +207,50 @@
       </div>
     </section>
     <footer
-      class="p-7 h- lg:pl-80 md:p-7 lg:pr-80 dark:bg-neutral-950 bg-neutral-50 flex justify-between items-center flex-col sm:flex-row gap-5">
+      class="p-7 h- lg:pl-80 md:p-7 lg:pr-80 dark:bg-neutral-900 bg-neutral-300 flex justify-between items-center flex-col sm:flex-row gap-5">
       <div class="flex flex-col gap-5 sm:gap-0">
         <p
-          class="text-xs dark:text-neutral-50 text-neutral-70 sm:text-start text-center">
+          class="text-xs dark:text-neutral-300   text-neutral-700 sm:text-start text-center">
           You found my blog interesting and want the same?
         </p>
         <h2
-          class="text-3xl font-extrabold dark:text-neutral-50 text-neutral-950 sm:text-start text-center">
+          class="text-3xl font-extrabold dark:text-neutral-200 text-neutral-700 sm:text-start text-center">
           Contact Me @
         </h2>
       </div>
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between align-middle items-center">
         <a href="mailto:contact@fortunedaniel.com" target="_blank" class=""
           ><div class="gap-5 p-5">
-            <svg
-              class="w-10 h-10 dark:fill-neutral-50 fill-neutral-950 hover:fill-red-800 dark:hover:fill-red-500  transition-colors duration-200"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 24 24">
-              <path
-                fill-rule="evenodd"
-                d="M5.024 3.783A1 1 0 0 1 6 3h12a1 1 0 0 1 .976.783L20.802 12h-4.244a1.99 1.99 0 0 0-1.824 1.205 2.978 2.978 0 0 1-5.468 0A1.991 1.991 0 0 0 7.442 12H3.198l1.826-8.217ZM3 14v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5h-4.43a4.978 4.978 0 0 1-9.14 0H3Z"
-                clip-rule="evenodd" />
-            </svg>
+        
+
+             <svg
+                  class=" dark:stroke-neutral-300 stroke-neutral-700 hover:stroke-red-800 dark:hover:stroke-red-500  transition-colors duration-200"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  width="40"
+                 
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.75 11.25V8.62C18.75 7.58723 17.9128 6.75 16.88 6.75H12.5H7.12C6.08723 6.75 5.25 7.58723 5.25 8.62V15.38C5.25 16.4128 6.08723 17.25 7.12 17.25H12.25"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M6 7.5L10.844 10.9311C11.5366 11.4217 12.4634 11.4217 13.156 10.9311L18 7.5"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M19.5 16H15.5"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M17.5 18V14"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
           </div>
         </a>
         <!-- <a
@@ -225,9 +272,9 @@
         <a
           href="https://www.linkedin.com/in/danielfortun%C3%A9/"
           target="_blank">
-          <div class="gap-5 p-5">
+          <div class="gap-5 ">
             <svg
-              class="w-10 h-10 dark:fill-neutral-50 fill-neutral-950 hover:fill-red-800 dark:hover:fill-red-500  transition-colors duration-200"
+              class="w-10 h-10 dark:fill-neutral-300 fill-neutral-700 hover:fill-red-800 dark:hover:fill-red-500  transition-colors duration-200"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24">

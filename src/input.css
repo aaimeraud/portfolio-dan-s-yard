@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@plugin "tailwindcss-noise";
+/* @plugin "tailwindcss-noise"; */
 @plugin "@tailwindcss/typography";
 
 html{
