@@ -939,6 +939,12 @@
   .text-neutral-500 {
     color: var(--color-neutral-500);
   }
+  .text-neutral-500\/20 {
+    color: color-mix(in srgb, oklch(55.6% 0 0) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in oklab, var(--color-neutral-500) 20%, transparent);
+    }
+  }
   .text-neutral-600 {
     color: var(--color-neutral-600);
   }
@@ -950,6 +956,21 @@
   }
   .text-red-400 {
     color: var(--color-red-400);
+  }
+  .text-red-500 {
+    color: var(--color-red-500);
+  }
+  .text-red-500\/20 {
+    color: color-mix(in srgb, oklch(63.7% 0.237 25.331) 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in oklab, var(--color-red-500) 20%, transparent);
+    }
+  }
+  .text-red-500\/50 {
+    color: color-mix(in srgb, oklch(63.7% 0.237 25.331) 50%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
+    }
   }
   .text-red-800 {
     color: var(--color-red-800);
