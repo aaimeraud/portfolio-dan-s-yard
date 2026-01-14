@@ -21,18 +21,21 @@
       rel="shortcut icon"
       href="../../assets/df_icon_red_ipod.png"
       type="image/x-icon" />
-    <link rel="icon" href="../../assets/df_icon_red_ipod.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="../../assets/df_icon_red_ipod.png"
+      type="image/x-icon" />
     <title>Daniel Fortuné — Design + Code</title>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
-  <body class="bg-neutral-50">
+  <body class="bg-neutral-50 dark:bg-neutral-900">
     <nav class="z-10 sticky px-7 lg:px-80 top-4 w-full">
       <ul
-        class="flex justify-between py-3 px-5 rounded-2xl border border-neutral-200 bg-neutral-50 shadow-lg">
+        class="flex justify-between py-3 px-5 dark:bg-neutral-800 dark:text-neutral-50 bg-neutral-50 rounded-2xl border border-neutral-200 dark:border-neutral-600 shadow-lg dark:shadow-neutral-800">
         <li>
           <a
             href="../../"
-            class="hover:opacity-60 transition-all ease-in-out text-neutral-600 dark:text-neutral-400 hover:duration-300"
+            class="hover:opacity-60 transition-all ease-in-out text-neutral-600 dark:text-neutral-50 hover:duration-300"
             >Home</a
           >
         </li>
@@ -40,17 +43,17 @@
         <li>
           <a
             href="../../blog/"
-            class="hover:opacity-60 transition-all ease-in-out text-neutral-600 dark:text-neutral-400 hover:duration-300"
+            class="hover:opacity-60 transition-all ease-in-out text-neutral-600 dark:text-neutral-50 hover:duration-300"
             >Blog</a
           >
         </li>
-        <li>
+        <!-- <li>
           <a
             href="../"
-            class="hover:opacity-60 transition-all ease-in-out text-neutral-950 dark:text-neutral-400 hover:duration-300 font-semibold"
+            class="hover:opacity-60 transition-all ease-in-out text-neutral-950 dark:text-neutral-50 hover:duration-300 font-semibold"
             >Projects</a
           >
-        </li>
+        </li> -->
 
         <li>
           <a
@@ -58,7 +61,7 @@
             target="_blank"
             title="See my resume">
             <span
-              class="text-neutral-600 dark:text-neutral-400 hover:opacity-60 transition-all ease-in-out hover:duration-300"
+              class="text-neutral-600 dark:text-neutral-50 hover:opacity-60 transition-all ease-in-out hover:duration-300"
               >CV</span
             ></a
           >
@@ -66,10 +69,10 @@
       </ul>
     </nav>
     <header
-      class="w-svw p-7 pt-7 lg:pl-80 md:p-7 md:pt-7 lg:pr-80 flex justify-between align-middle border-neutral-200 items-center bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-600">
+      class="w-svw p-7 pt-7 lg:pl-80 md:p-7 md:pt-7 lg:pr-80 flex justify-between align-middle border-neutral-200 items-center bg-neutral-50 dark:bg-neutral-900 border-b-2 dark:border-neutral-600">
       <div class="gap-2 flex flex-col">
         <div class="flex items-center gap-3">
-          <a href="./"
+          <a href="../index.html"
             ><h1
               class="font-bold text-4xl sm:text-6xl text-neutral-700 dark:text-neutral-300"
               id="">
@@ -168,15 +171,41 @@
     </header>
 
     <section
-      class="w-screen p-7 pt-5 lg:pl-80 md:p-7 md:pt-5 lg:pr-80 flex justify-between flex-col align-middle items-center bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-600">
+      class="w-screen p-7 pt-5 lg:pl-80 md:p-7 md:pt-5 lg:pr-80 flex justify-between flex-col align-middle items-center bg-neutral-50 dark:bg-neutral-900 dark:border-neutral-600 gap-4">
+      <div class="bg-neutral-100 p-5 rounded-4xl gap-5 flex flex-col border-neutral-300 border">
 
-      <div class="grid grid-cols-2 gap-2 w-full ">
-        <img src="/src/assets/projects/liberia-front.png" alt="" class="border border-neutral-300 rounded-2xl " />
-        <img src="/src/assets/projects/liberia-back.png" alt="" class="border border-neutral-300 rounded-2xl " />
-        <img src="/src/assets/projects/neue-front.webp" alt="" class="border border-neutral-300 rounded-2xl " />
-        <img src="/src/assets/projects/neue-back.webp" alt="" class="border border-neutral-300 rounded-2xl " />
-        <img src="/src/assets/projects/uni-tee-front.png" alt="" class="border border-neutral-300 rounded-2xl " />
-        <img src="/src/assets/projects/uni-tee-back.png" alt="" class="border border-neutral-300 rounded-2xl " />
+        <div class="lg:text-3xl text-2xl flex justify-start w-full ">
+          <h3 class="font-semibold text-neutral-600">Liberia Jacket <span class="text-sm">for <a href="https://www.maisonbizness.com">Bizness</a>
+          </span></h3>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-2 w-full">
+          <img
+          src="../../assets/projects-assets/liberia-front.png"
+          alt=""
+          class="border border-neutral-300 rounded-2xl" />
+          <img
+          src="../../assets/projects-assets/liberia-back.png"
+          alt=""
+          class="border border-neutral-300 rounded-2xl" />
+        </div>
+      </div>
+
+      <div class="bg-neutral-100 p-5 rounded-4xl gap-5 flex flex-col border-neutral-300 border">
+
+        <div class="lg:text-3xl text-2xl flex justify-start w-full ">
+          <h3 class="font-semibold text-neutral-600">Uni-Tee <span class="text-sm">for <a href="https://www.maisonbizness.com">Bizness</a>
+          </span></h3>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-2 w-full">
+          <img
+          src="../../assets/projects-assets/uni-tee-front.png"
+          alt=""
+          class="border border-neutral-300 rounded-2xl" />
+          <img
+          src="../../assets/projects-assets/uni-tee-back.png"
+          alt=""
+          class="border border-neutral-300 rounded-2xl" />
+        </div>
       </div>
     </section>
   </body>
